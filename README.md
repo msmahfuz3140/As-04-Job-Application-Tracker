@@ -94,4 +94,4 @@ Answer:
 preventDefault() Stops the default browser action for an event.
 
 
-stopPropagation() Stops the event from bubbling up (or capturing down) the DOM.
+stopPropagation() Stops the event from bubbling up (or capturing down) the DOM..
