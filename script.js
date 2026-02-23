@@ -212,6 +212,3 @@ jobsDiv.addEventListener("click", function(event) {
     showCardsByFilter();
 });
 
-updateAllNumbers();
-makeButtonActive();
-showCardsByFilter();
