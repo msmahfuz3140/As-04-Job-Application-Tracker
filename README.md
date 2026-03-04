@@ -1,97 +1,53 @@
-1. What is the difference between getElementById, getElementsByClassName, and querySelector / querySelectorAll?
+# 🚀 Job Application Tracker
 
-Answer:
+A dynamic and interactive Job Application Tracker built using HTML, Tailwind CSS, DaisyUI, and JavaScript (DOM manipulation).
 
-id:Get one element by its unique ID.
+## 📌 Project Overview
 
-example:
-<div id="header">Hello</div>
+This project allows users to manage and track job applications efficiently. It demonstrates strong fundamentals of DOM manipulation, event handling, and dynamic UI updates using vanilla JavaScript.
 
-const header = document.getElementById('header');
+## ✨ Features
 
+- Add and track job applications
+- Dynamic UI updates using DOM manipulation
+- Interactive user experience with event listeners
+- Clean and responsive design using Tailwind CSS & DaisyUI
+- Reusable functions and organized code structure
+- Conditional logic for real-time interaction
 
-class:Get all elements that have a specific class.
+## 🛠️ Technologies Used
 
-example:
-<div class="item">A</div>
-<div class="item">B</div>
+- HTML5
+- CSS3
+- Tailwind CSS
+- DaisyUI
+- JavaScript (Core + DOM)
 
-const items = document.getElementsByClassName('item');
+## 🎯 Learning Outcomes
 
+Through this project, I practiced:
 
-querySelector:Select elements using any CSS selector.
+- Selecting and manipulating DOM elements
+- Handling user events using `addEventListener()`
+- Writing reusable and clean JavaScript functions
+- Applying conditional logic
+- Debugging and improving performance
+- Structuring projects in a maintainable way
 
-example:
-<div class="item">A</div>
-<div class="item">B</div>
+## 🔗 Live Project
 
-const firstItem = document.querySelector('.item');
+👉 https://msmahfuz3140.github.io/As-04-Job-Application-Tracker/
 
+## 📈 Future Improvements
 
-querySelectorAll:Select all matching elements.
+- Add local storage support
+- Add filter and search functionality
+- Improve UI animations
+- Convert into a React-based application
 
-example:
-<div class="item">A</div>
-<div class="item">B</div>
+---
 
-const allItems = document.querySelectorAll('.item');
+### 👨‍💻 Author
 
-
-
-2. How do you create and insert a new element into the DOM?
-
-Answer:
-
-Create a new element, set its content, and attach it to a parent.
-
-example:
-<div id="container"></div>
-
-<script>
-  const h1 = document.createElement('h1'); 
-  h1.textContent = "Hello World";           
-  document.getElementById('container').appendChild(h1);
-</script>
-
-
-
-3. What is Event Bubbling? And how does it work?
-
-Answer:
-
-Event Bubbling is a way events travel up the DOM tree.
-
-example:
-<div id="parent">
-  <button id="child">Click Me</button>
-</div>
-
-<script>
-  document.getElementById('child').addEventListener('click', function() {
-    alert("Child clicked!");
-  });
-
-  document.getElementById('parent').addEventListener('click', function() {
-    alert("Parent clicked!");
-  });
-</script>
-
-
-
-4. What is Event Delegation in JavaScript? Why is it useful?
-
-Answer:
-
-Event Delegation in JavaScript is when we attach a single event listener to a parent element to handle events on its child elements.
-
-It saves memory, works for new dynamically added elements, and keeps our code clean and easy to manage.
-
-
-
-5. What is the difference between preventDefault() and stopPropagation() methods?
-
-Answer:
-preventDefault() Stops the default browser action for an event.
-
-
-stopPropagation() Stops the event from bubbling up (or capturing down) the DOM.
+MD MAHFUZUL HAQUE  
+Aspiring Frontend Developer | Future MERN Stack Developer
